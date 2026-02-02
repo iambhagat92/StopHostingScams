@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://stop-hosting-scams.vercel.app/sitemap.xml
