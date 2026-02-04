@@ -102,7 +102,19 @@
             "url": "https://stop-hosting-scams.vercel.app/go/interserver",
             "priceCurrency": "USD",
             "price": "2.50",
-            "availability": "https://schema.org/InStock"
+            "availability": "https://schema.org/InStock",
+            "shippingDetails": {
+              "@type": "OfferShippingDetails",
+              "shippingRate": {
+                "@type": "MonetaryAmount",
+                "value": "0",
+                "currency": "USD"
+              },
+              "shippingDestination": {
+                "@type": "DefinedRegion",
+                "addressCountry": "US"
+              }
+            }
           }
         },
         {
@@ -226,7 +238,8 @@
                 <p>We monitored InterServer's uptime over a 3-month period. They delivered a solid <strong>99.96%
                         uptime</strong>, which is well within industry standards. Load times averaged around
                     <strong>560ms</strong>, which is faster than Bluehost (720ms) and HostGator (890ms), likely due to
-                    their non-overloaded servers.</p>
+                    their non-overloaded servers.
+                </p>
 
                 <h2>Pricing: The Real Selling Point</h2>
                 <p>Most hosts charge you $2.95/mo for the first term, then renew at $10.99/mo. InterServer is different.
@@ -329,8 +342,10 @@
                     <h4 class="font-bold text-white mb-4">Legal</h4>
                     <ul class="space-y-2 text-sm">
                         <li><a href="/privacy-policy.html" class="hover:text-white transition">Privacy Policy</a></li>
-                        <li><a href="/terms-of-service.html" class="hover:text-white transition">Terms of Service</a></li>
-                        <li><a href="/affiliate-disclosure.html" class="hover:text-white transition">Affiliate Disclosure</a></li>
+                        <li><a href="/terms-of-service.html" class="hover:text-white transition">Terms of Service</a>
+                        </li>
+                        <li><a href="/affiliate-disclosure.html" class="hover:text-white transition">Affiliate
+                                Disclosure</a></li>
                     </ul>
                 </div>
             </div>
@@ -376,5 +391,3 @@
 </body>
 
 </html>
-
-
