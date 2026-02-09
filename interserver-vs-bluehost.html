@@ -60,16 +60,27 @@
             "ratingValue": "4.7",
             "reviewCount": "84"
           },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": "0",
-              "currency": "USD"
+          "offers": {
+            "@type": "Offer",
+            "url": "https://stop-hosting-scams.vercel.app/interserver-vs-bluehost.html",
+            "priceCurrency": "USD",
+            "price": "2.50",
+            "availability": "https://schema.org/InStock",
+            "shippingDetails": {
+              "@type": "OfferShippingDetails",
+              "shippingRate": {
+                "@type": "MonetaryAmount",
+                "value": "0",
+                "currency": "USD"
+              },
+              "shippingDestination": {
+                "@type": "DefinedRegion",
+                "addressCountry": "US"
+              }
             },
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "US"
+            "seller": {
+              "@type": "Organization",
+              "name": "InterServer"
             }
           },
           "hasMerchantReturnPolicy": {
@@ -79,10 +90,6 @@
             "merchantReturnDays": "30",
             "returnFees": "https://schema.org/FreeReturn",
             "returnMethod": "https://schema.org/ReturnByMail"
-          },
-          "seller": {
-            "@type": "Organization",
-            "name": "InterServer"
           }
         },
         {
